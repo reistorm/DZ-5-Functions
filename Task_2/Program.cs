@@ -4,7 +4,7 @@
 //[3 7 22 2 78] -> 76
 
 
-double[] initArray()
+double[] InitArray()
 {
     Console.WriteLine("Введите число элементов массива: ");
     int N = int.Parse(Console.ReadLine());
@@ -27,7 +27,7 @@ double[] initArray()
     Console.WriteLine();
     return arr;
 }
-double[] arr = initArray();
+double[] arr = InitArray();
 
 int index = 0;
 for (int i = 1; i < arr.Length; i++)
