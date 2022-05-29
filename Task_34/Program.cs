@@ -4,7 +4,7 @@
 //массиве.
 //[345, 897, 568, 234] -> 2
 
-int[] initArray()
+int[] InitArray()
 {
     Console.WriteLine("Введите число элементов массива: ");
     int N = int.Parse(Console.ReadLine());
@@ -26,7 +26,7 @@ int[] initArray()
 }
 
 
-int[] arr = initArray();
+int[] arr = InitArray();
 int EvenNum = 0;
 for (int i = 0; i < arr.Length; i++)
 {
